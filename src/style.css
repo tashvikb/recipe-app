@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+
+ion-icon{
+  font-size: 32px;
+  color: #000;
+}
+
+*{
+  margin: 0; padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.home{
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  height: 100vh;
+}
+
+.home nav{
+  margin-top: 5%;
+}
+
+.app-logo{
+  height: 55px;
+  margin-right: 10px;
+}
+
+.app-title{
+  font-size: 35px;
+}
+
+.search{
+  margin-top: 20px;
+  height: 30px;
+  width: 180px;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.recipes{
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* ================ Recipe Name =============== */
+
+.recipe-link{
+  text-decoration: none;
+  color: black;
+}
+
+.recipe{
+  /* cursor: pointer; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  width: 98%;
+  height: 60px;
+  background-color: #f3f3f3;
+}
+
+.recipe-name{
+  font-weight: 600;
+  font-size: 18px;
+}
+.recipe-des{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* =================== Footer =============== */
+
+.footer{
+  margin: 40px auto 40px;
+}
+
+/* ============= One Recipe =================  */
+
+.or-container *{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.or-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  margin: auto;
+  padding: 5px 20px;
+  font-size: 16px;
+}
+
+.or-title{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10px;
+}
+
+.or-desciption{
+  margin-top: 20px;
+}
+
+/* ===================== OR Ingredients ================ */
+
+.ingredients{
+  margin: 15px 0;
+}
+
+.ingredients h3{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+.ingredients-list{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+}
+
+.in-ing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.in-ing input{
+  width: 20px;
+  height: 20px;
+}
+
+.in-ing-ing{
+  margin-right: auto;
+}
+
+.in-ing button{
+  font-family: 'Roboto', sans-serif;
+  width: 60px;
+  height: 30px;
+  font-size: 13px;
+}
+
+.add-ingredient input{
+  font-family: 'Roboto', sans-serif;
+  width: 200px;
+  height: 35px;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  margin-right: 3px;
+}
+
+.add-ingredient button{
+  font-family: 'Roboto', sans-serif;
+  width: 80px;
+  height: 39px;
+}
+
+/* ================ Directions ==================== */
+
+.directions h3{
+  font-family: 'Roboto', sans-serif;
+  margin: 14px 0;
+}
+
+/* ================== Nutritions ==================== */
+
+.nutrition h3{
+  font-family: 'Roboto', sans-serif;
+  margin: 14px 0;
+}
+
+.back-link{
+  margin-top: 15px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+}
+
+/* ==================== footer ======================== */
+
+.footer{
+  display: flex;
+  padding: 0 0 20px 0;
+  justify-content: center;
+  gap: 8px;
+}
