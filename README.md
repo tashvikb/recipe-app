@@ -11,12 +11,16 @@ For live preview [click here][ralink]
 ![Recipe App SS](./screenshot/1.png)
 ![Recipe App SS](./screenshot/2.png)
 
+<br/>
+
 #### Languages that are used:
 <img align="left" alt="NodeJS" width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />
 <img align="left" alt="ReactJS" width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
 <img align="left" alt="CSS" width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="Javascript" width="60px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
 
+<br/>
+<br/>
 
 #### Installation and Setup Instructions
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
